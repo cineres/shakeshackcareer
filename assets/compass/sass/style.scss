@@ -1,0 +1,157 @@
+$green: #60ae2b;
+
+.banner-image{
+	width: 100%;
+	overflow: hidden;
+	background-color: $green;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	img{
+		max-width: 100%;
+		vertical-align: bottom;
+	}
+}
+
+.secondary-menu{
+	font-family: "Arial";
+	font-size: 1em;
+	text-transform: uppercase;
+	border-bottom: 1px solid #d9d9d7;
+	line-height: 52px;
+	margin-bottom: 49px;
+	ul{
+		text-align: center;
+		li{
+			display: inline-block;
+			zoom: 1;
+			padding: 0 1.923%;
+			a{
+				text-decoration: none;
+				color: #4c4c4c;
+			}
+		}
+	}
+}
+
+.tout{
+	display: inline-block;
+	img{
+		text-align: center;
+	}
+}
+.tout-text{
+	display: inline-block;
+	h2{
+		margin-top: 0px;
+	}
+}
+
+.video-banner{
+	width: 100%;
+	overflow: hidden;
+	background-color: $green;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	.video-banner-background-1{
+		max-width: 100%;
+		vertical-align: bottom;	
+		background: url("../../img/career_video_1.jpg") no-repeat center;
+		height: 414px;
+	}
+	.video-banner-background-2{
+		max-width: 100%;
+		vertical-align: bottom;	
+		background: url("../../img/career_video_2.jpg") no-repeat center;
+		height: 414px;
+	}
+	.video-text{
+		background: rgba(0,0,0,.65);
+		box-shadow: 0px 30px 40px rgba(0,0,0,.65);
+		margin-bottom: 0px;
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-top: 30px;
+	}
+	h2{
+		color: #fff;
+		padding-top: 30px;
+	}
+	button{
+		width: 160px;
+		height: 40px;
+		margin-bottom: 30px;
+	}
+	p{
+		color: #fff;
+		text-align: left;
+	}
+}
+
+.carousel-control{
+	.fa{
+		position: absolute;
+		top: 40%;
+		z-index: 5;
+		display: inline-block;
+	}
+	.left{
+		i{float: left;}
+	}
+	.right{
+		i{float: right;}
+	}
+}
+
+/***** MODAL PROPERTIES *****/
+  .modal-content {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background:transparent;
+    border:none;
+    outline:none;
+	.video-iframe {
+	  border:none;
+	  padding:0;
+	  margin:0;
+	}
+}
+.close-big {
+    font-size: 80px !important;
+    margin:-20px -40px 0 0 !important;
+    color: #fff;
+}
+
+
+
+.value{
+	padding-bottom: 30px;
+	p{
+		padding-top: 20px;
+	}
+}
+
+#benefits{
+	.fa{
+		text-align: center;
+		display: block;
+	}
+	h3{
+		text-align: center;
+		color: $green;
+	}
+	p{
+		text-align: center;
+	}
+	.row{
+		padding-bottom: 40px;
+	}
+}
+
+
+
+
+section{
+	padding-bottom: 100px;
+}
