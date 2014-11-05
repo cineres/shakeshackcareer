@@ -1,4 +1,3 @@
-  autoPlayYouTubeModal();
 
   //FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
   function autoPlayYouTubeModal() {
@@ -16,3 +15,34 @@
           });
       });
   }
+
+$(window).load(function(){
+    var $container = $('.employees');
+    $container.isotope({
+        filter: '*',
+        animationOptions: {
+            duration: 750,
+            easing: 'linear',
+            queue: false
+        }
+    });
+ 
+    $('#filters .button').click(function(){
+        var $buttonGroup = $('.button-group');
+        $buttonGroup.find('.is-checked').removeClass('is-checked');
+        $(this).addClass('is-checked');
+ 
+        var selector = $(this).attr('data-filter');
+        $container.isotope({
+            filter: selector,
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+         });
+         return false;
+    }); 
+    autoPlayYouTubeModal();
+});
+

@@ -1,5 +1,15 @@
 $green: #60ae2b;
-
+.call-to-action{
+	background-color: lightgrey;
+	height: 200px;
+	width: 100%;
+	position: relative;
+	top: 0px;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+}
 .banner-image{
 	width: 100%;
 	overflow: hidden;
@@ -54,17 +64,14 @@ $green: #60ae2b;
 	text-align: center;
 	padding: 0px;
 	margin: 0px;
-	.video-banner-background-1{
+	.video-banner-background{
 		max-width: 100%;
 		vertical-align: bottom;	
-		background: url("../../img/career_video_1.jpg") no-repeat center;
+		background: grey no-repeat center;
 		height: 414px;
-	}
-	.video-banner-background-2{
-		max-width: 100%;
-		vertical-align: bottom;	
-		background: url("../../img/career_video_2.jpg") no-repeat center;
-		height: 414px;
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.video-text{
 		background: rgba(0,0,0,.65);
@@ -105,6 +112,7 @@ $green: #60ae2b;
 }
 
 /***** MODAL PROPERTIES *****/
+.video-modal{
   .modal-content {
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -122,6 +130,7 @@ $green: #60ae2b;
     margin:-20px -40px 0 0 !important;
     color: #fff;
 }
+}
 
 
 
@@ -133,6 +142,7 @@ $green: #60ae2b;
 }
 
 #benefits{
+	padding-top: 60px;
 	.fa{
 		text-align: center;
 		display: block;
@@ -151,29 +161,112 @@ $green: #60ae2b;
 
 
 //bios
-.bio{
-	img{
-		overflow: hidden;
-		width: 100%;
-		height: 100%;
-	}
-	.bio-text{
-		position: absolute;
-		bottom: 0px;
-		right: 0px;
-		left: 0px;
-		margin: 15px;
-		padding: 10px;
-		background-color: rgba(1,1,1,.65);
-		color: #fff;
-	}
+
+.employee-bios{
+.bio-item {
+  position: relative;
+  float: left;
+  width: 175px;
+  height: 175px;
+  margin: 5px;
+  padding: 10px;
+  background: #888;
+  color: #262524;
+}
+
+.bio-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.bio-item .name {
+  position: absolute;
+  left: 10px;
+  top: 90px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.bio-item .position {
+  position: absolute;
+  left: 10px;
+  top: 110px;
+  font-size: 14px;
+  color: white;
+}
+
+.bio-item .location {
+  position: absolute;
+  left: 10px;
+  top: 125px;
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: #EEE;
+  border: none;
+  border-radius: 7px;
+  background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-shadow: 0 1px white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #8CF;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: #222;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #28F;
+}
+
+.button.is-checked {
+  color: white;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
+.button-group{
+	margin-bottom: 20px;
+}
 
 }
 
 
-.search{
-	padding-bottom: 40px;
-}
+
+
+
 
 .job-search{
 	.form-group{
@@ -199,8 +292,63 @@ $green: #60ae2b;
 	}
 }
 
+#careers-frame{
+	iframe{
+		width: 100%;
+		height: 500px;
+	}
+}
 
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
 
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+.modal-content{
+	padding: 20px;
+	background: url('../../img/bio-bg.png') no-repeat center;
+	background-size: 900px 400px;
+	color: #fff;
+	p{
+		width: 50%;
+	}
+}
+.modal-lg{
+	border-radius: 0px;
+}
 
 section{
 	padding-bottom: 100px;

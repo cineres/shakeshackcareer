@@ -26,41 +26,7 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <div class="navbar navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">ShakeShack Career</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Burgers</a></li>
-                    <li><a href="#">Fries</a></li>
-                    <li><a href="#">Shakes</a></li>
-                    <li><a href="#">Dogs</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div><!--nav-->
+  <img src="assets/img/nav.png" alt='' />
     <!--<div class="container">-->
 
     <!--BANNER-->
@@ -95,19 +61,10 @@
           <p>Morbi justo magna, convallis id vulputate in, dignissim vel elit. Quisque euismod risus sed mi congue finibus. Donec eleifend luctus volutpat. Etiam pellentesque elit eu porttitor lacinia. Nullam ac nisl in eros ultrices iaculis at at erat. Ut non erat vitae massa fermentum aliquam sit amet vestibulum ex. Fusce pellentesque ex ultricies dignissim rutrum. Nunc consequat bibendum porttitor.</p>
         </div>
         <div class="col-md-5">
-          <div class="row">
-            <div class="col-xs-3">
-              <a class="tout" href="#">
-                <img src="assets/img/tout_teampact.png" alt="">
-              </a>
-            </div>
-            <div class="col-xs-9">
-              <div class="tout-text">
-                <h2>Subheading to go to Job Search</h2>
-                <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc finibus urna in nisi feugiat, quis blandit turpis pellentesque. <a href="job-search.html"> Link to jobs.</a>
-              </div>
-            </div>
+          <div class="call-to-action">
+            <h2>Call to action! Goes to the full job board!</h2>
           </div>
+          <a href="job-search.html">Go to full job board! <span class="glyphicon glyphicon-chevron-right"></a>
         </div>
       </div> <!--INTRO row-->
     </div><!--container-->
@@ -133,10 +90,10 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-         <div class="video-banner-background-1">
+         <div class="video-banner-background">
             <div class="row">
               <div class="col-md-4 col-md-offset-2 video-text">
-                <h2>Header about working here</h2>
+                <h2>Header about working here 1</h2>
                 <p>Quisque facilisis interdum nunc, vel semper magna congue vel. Donec commodo augue in lorem consectetur, a congue odio scelerisque. In sagittis laoreet nisi sit amet porta. Mauris dolor magna, aliquet non neque sagittis, mattis mollis dui. Mauris a nibh maximus, iaculis orci at, ornare arcu. Ut porta non lectus ac pellentesque.</p>
                 <button type="button" class="btn btn-success" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/rVHxgNsBbqU">Watch!</button>
               </div>
@@ -144,10 +101,21 @@
           </div>
     </div>
     <div class="item">
-        <div class="video-banner-background-2">
+        <div class="video-banner-background">
             <div class="row">
               <div class="col-md-4 col-md-offset-2 video-text">
-                <h2>Header about working here</h2>
+                <h2>Header about working here 2</h2>
+                <p>Quisque facilisis interdum nunc, vel semper magna congue vel. Donec commodo augue in lorem consectetur, a congue odio scelerisque. In sagittis laoreet nisi sit amet porta. Mauris dolor magna, aliquet non neque sagittis, mattis mollis dui. Mauris a nibh maximus, iaculis orci at, ornare arcu. Ut porta non lectus ac pellentesque.</p>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/Ickn8iipxUc">Watch!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    <div class="item">
+        <div class="video-banner-background">
+            <div class="row">
+              <div class="col-md-4 col-md-offset-2 video-text">
+                <h2>Header about working here 3</h2>
                 <p>Quisque facilisis interdum nunc, vel semper magna congue vel. Donec commodo augue in lorem consectetur, a congue odio scelerisque. In sagittis laoreet nisi sit amet porta. Mauris dolor magna, aliquet non neque sagittis, mattis mollis dui. Mauris a nibh maximus, iaculis orci at, ornare arcu. Ut porta non lectus ac pellentesque.</p>
                 <button type="button" class="btn btn-success" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/Ickn8iipxUc">Watch!</button>
               </div>
@@ -175,7 +143,7 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal fade video-modal" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
@@ -243,122 +211,273 @@
 
       <!--VALUES-->
     <section>
+      <div class="row">
+        <div class="col-md-5 col-md-offset-1">
+
       <div class="row value">
-        <div class="col-md-3 col-md-offset-1">
+        <div class="col-md-4">
           <h2>Value 1</h2>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-8">
           <p>Suspendisse laoreet vehicula orci ac feugiat. Phasellus id diam nec augue sodales aliquet. Integer metus eros, interdum sit amet euismod sit amet, molestie eget ligula.</p>
         </div>
       </div>
       <div class="row value">
-        <div class="col-md-3 col-md-offset-1">
+        <div class="col-md-4">
           <h2>Value 2</h2>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-8">
           <p>Suspendisse laoreet vehicula orci ac feugiat. Phasellus id diam nec augue sodales aliquet. Integer metus eros, interdum sit amet euismod sit amet, molestie eget ligula.</p>
         </div>
       </div>
       <div class="row value">
-        <div class="col-md-3 col-md-offset-1">
+        <div class="col-md-4">
           <h2>Value 3</h2>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-8">
           <p>Suspendisse laoreet vehicula orci ac feugiat. Phasellus id diam nec augue sodales aliquet. Integer metus eros, interdum sit amet euismod sit amet, molestie eget ligula.</p>
         </div>
       </div>
       <div class="row value">
-        <div class="col-md-3 col-md-offset-1">
+        <div class="col-md-4">
           <h2>Value 4</h2>
         </div>
-        <div class="col-md-7">
+        <div class="col-md-8">
           <p>Suspendisse laoreet vehicula orci ac feugiat. Phasellus id diam nec augue sodales aliquet. Integer metus eros, interdum sit amet euismod sit amet, molestie eget ligula.</p>
         </div>
       </div>
+    </div><!--col-->
+    <div class="col-md-5">
+      <div class="call-to-action">
+        <h2>Call to action! Goes to the benefits section!</h2>
+      </div>
+      <a href="jobs.html">Go to full job board! <span class="glyphicon glyphicon-chevron-right"></a>
+    </div>
+  </div>
     </section>
       <!--values-->
 
 
-<section>
-  <h2>Employees</h2>
-  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+<section class= "employee-bios">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Employees</h2>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <div class="row">
-        <div class="col-md-4 bio">
-          <img src="assets/img/staff1.png" alt="" />
-          <div class="bio-text">
-            <h3>Employee Name</h3>
-            <p>Little bit about why I'm awesome...</p>
-            <a href="#">Read more.</a>
-          </div>
-        </div>
-        <div class="col-md-4 bio">
-          <img src="assets/img/staff2.png" alt="" />
-          <div class="bio-text">
-            <h3>Employee Name</h3>
-            <p>Little bit about why I'm awesome...</p>
-            <a href="#">Read more.</a>
-          </div>
-        </div>
-        <div class="col-md-4 bio">
-          <img src="assets/img/staff3.png" alt="" />
-          <div class="bio-text">
-            <h3>Employee Name</h3>
-            <p>Little bit about why I'm awesome...</p>
-            <a href="#">Read more.</a>
-          </div>
-        </div>
+      <div id="filters" class="button-group">  
+        <button class="button is-checked" data-filter="*">show all</button>
+        <button class="button" data-filter=".one">one</button>
+        <button class="button" data-filter=".two">two</button>
+        <button class="button" data-filter=".three">three</button>
+        <button class="button" data-filter=".four">four</button>
+        <button class="button" data-filter=".five">five</button>
+        <button class="button" data-filter=".one, .five">one and five</button>
       </div>
-    </div>
-    <div class="item">
-      <div class="row">
-        <div class="col-md-4 bio">
-          <img src="assets/img/staff4.png" alt="" />
-          <div class="bio-text">
-            <h3>Employee Name</h3>
-            <p>Little bit about why I'm awesome...</p>
-            <a href="#">Read more.</a>
-          </div>
-        </div>
-        <div class="col-md-4 bio">
-          <img src="assets/img/staff5.png" alt="" />
-          <div class="bio-text">
-            <h3>Employee Name</h3>
-            <p>Little bit about why I'm awesome...</p>
-            <a href="#">Read more.</a>
-          </div>
-        </div>
-        <div class="col-md-4 bio">
-          <img src="assets/img/staff6.png" alt="" />
-          <div class="bio-text">
-            <h3>Employee Name</h3>
-            <p>Little bit about why I'm awesome...</p>
-            <a href="#">Read more.</a>
-          </div>
-        </div>
+
+    <div class="employees">
+      <div class="bio-item one" data-toggle="modal" data-target=".modal1">
+        <h3 class="name">Employee 1</h3>
+        <p class="position">Position</p>
+        <p class="location">Location</p>
+      </div>
+      <div class="bio-item one two" data-toggle="modal" data-target=".modal2">
+        <h3 class="name">Employee 2</h3>
+        <p class="position">Position</p>
+        <p class="location">Location</p>
+      </div>
+      <div class="bio-item four" data-toggle="modal" data-target=".modal3">
+        <h3 class="name">Employee 3</h3>
+        <p class="position">Position</p>
+        <p class="location">Location</p>
+      </div>
+      <div class="bio-item three one" data-toggle="modal" data-target=".modal4">
+        <h3 class="name">Employee 4</h3>
+        <p class="position">Position</p>
+        <p class="location">Location</p>
+      </div>
+      <div class="bio-item five" data-toggle="modal" data-target=".modal5">
+        <h3 class="name">Employee 5</h3>
+        <p class="position">Position</p>
+        <p class="location">Location</p>
+      </div>
+      <div class="bio-item five" data-toggle="modal" data-target=".modal6">
+        <h3 class="name">Employee 6</h3>
+        <p class="position">Position</p>
+        <p class="location">Location</p>
+      </div>
+      <div class="bio-item three one" data-toggle="modal" data-target=".modal7">
+        <h3 class="name">Employee 7</h3>
+        <p class="position">Position</p>
+        <p class="location">Location</p>
+      </div>
+      <div class="bio-item four" data-toggle="modal" data-target=".modal8">
+        <h3 class="name">Employee 8</h3>
+        <p class="position">Position</p>
+        <p class="location">Location</p>
+      </div>
+      <div class="bio-item three" data-toggle="modal" data-target=".modal9">
+        <h3 class="name">Employee 9</h3>
+        <p class="position">Position</p>
+        <p class="location">Location</p>
+      </div>
+      <div class="bio-item one two three four" data-toggle="modal" data-target=".modal10">
+        <h3 class="name">Employee 10</h3>
+        <p class="position">Position</p>
+        <p class="location">Location</p>
+      </div>
+      <div class="bio-item two" data-toggle="modal" data-target=".modal11">
+        <h3 class="name">Employee 11</h3>
+        <p class="position">Position</p>
+        <p class="location">Location</p>
+      </div>
+      <div class="bio-item three" data-toggle="modal" data-target=".modal12">
+        <h3 class="name">Employee 12</h3>
+        <p class="position">Position</p>
+        <p class="location">Location</p>
+      </div>
+      <div class="bio-item five" data-toggle="modal" data-target=".modal13">
+        <h3 class="name">Employee 13</h3>
+        <p class="position">Position</p>
+        <p class="location">Location</p>
+      </div>
+      <div class="bio-item one five" data-toggle="modal" data-target=".modal14">
+        <h3 class="name">Employee 14</h3>
+        <p class="position">Position</p>
+        <p class="location">Location</p>
+      </div>
+      <div class="bio-item one" data-toggle="modal" data-target=".modal15">
+        <h3 class="name">Employee 15</h3>
+        <p class="position">Position</p>
+        <p class="location">Location</p>
       </div>
     </div>
   </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
+
+<div class="modal fade bio-modal modal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h2>Employee 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius efficitur. Proin tristique mauris nec nibh aliquam mollis. Morbi convallis fringilla nibh a viverra. Sed egestas mauris non libero tempus facilisis. Pellentesque bibendum sollicitudin finibus. Morbi augue ligula, convallis non dignissim in, fermentum nec massa. Phasellus mattis odio eget interdum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sed cursus enim, ut tempus augue. Curabitur a arcu nec neque venenatis sodales at at diam. Curabitur at ex vel risus congue iaculis. Nunc dictum urna imperdiet, rhoncus felis non, lacinia nisl. Vestibulum gravida risus et risus rutrum, et congue nunc pharetra.</p>
+    </div>
+  </div>
+</div>
+<div class="modal fade bio-modal modal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h2>Employee 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius efficitur. Proin tristique mauris nec nibh aliquam mollis. Morbi convallis fringilla nibh a viverra. Sed egestas mauris non libero tempus facilisis. Pellentesque bibendum sollicitudin finibus. Morbi augue ligula, convallis non dignissim in, fermentum nec massa. Phasellus mattis odio eget interdum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sed cursus enim, ut tempus augue. Curabitur a arcu nec neque venenatis sodales at at diam. Curabitur at ex vel risus congue iaculis. Nunc dictum urna imperdiet, rhoncus felis non, lacinia nisl. Vestibulum gravida risus et risus rutrum, et congue nunc pharetra.</p>
+    </div>
+  </div>
+</div>
+<div class="modal fade bio-modal modal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h2>Employee 3</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius efficitur. Proin tristique mauris nec nibh aliquam mollis. Morbi convallis fringilla nibh a viverra. Sed egestas mauris non libero tempus facilisis. Pellentesque bibendum sollicitudin finibus. Morbi augue ligula, convallis non dignissim in, fermentum nec massa. Phasellus mattis odio eget interdum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sed cursus enim, ut tempus augue. Curabitur a arcu nec neque venenatis sodales at at diam. Curabitur at ex vel risus congue iaculis. Nunc dictum urna imperdiet, rhoncus felis non, lacinia nisl. Vestibulum gravida risus et risus rutrum, et congue nunc pharetra.</p>
+    </div>
+  </div>
+</div>
+<div class="modal fade bio-modal modal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h2>Employee 4</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius efficitur. Proin tristique mauris nec nibh aliquam mollis. Morbi convallis fringilla nibh a viverra. Sed egestas mauris non libero tempus facilisis. Pellentesque bibendum sollicitudin finibus. Morbi augue ligula, convallis non dignissim in, fermentum nec massa. Phasellus mattis odio eget interdum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sed cursus enim, ut tempus augue. Curabitur a arcu nec neque venenatis sodales at at diam. Curabitur at ex vel risus congue iaculis. Nunc dictum urna imperdiet, rhoncus felis non, lacinia nisl. Vestibulum gravida risus et risus rutrum, et congue nunc pharetra.</p>
+    </div>
+  </div>
+</div>
+<div class="modal fade bio-modal modal5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h2>Employee 5</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius efficitur. Proin tristique mauris nec nibh aliquam mollis. Morbi convallis fringilla nibh a viverra. Sed egestas mauris non libero tempus facilisis. Pellentesque bibendum sollicitudin finibus. Morbi augue ligula, convallis non dignissim in, fermentum nec massa. Phasellus mattis odio eget interdum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sed cursus enim, ut tempus augue. Curabitur a arcu nec neque venenatis sodales at at diam. Curabitur at ex vel risus congue iaculis. Nunc dictum urna imperdiet, rhoncus felis non, lacinia nisl. Vestibulum gravida risus et risus rutrum, et congue nunc pharetra.</p>
+    </div>
+  </div>
+</div>
+<div class="modal fade bio-modal modal6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h2>Employee 6</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius efficitur. Proin tristique mauris nec nibh aliquam mollis. Morbi convallis fringilla nibh a viverra. Sed egestas mauris non libero tempus facilisis. Pellentesque bibendum sollicitudin finibus. Morbi augue ligula, convallis non dignissim in, fermentum nec massa. Phasellus mattis odio eget interdum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sed cursus enim, ut tempus augue. Curabitur a arcu nec neque venenatis sodales at at diam. Curabitur at ex vel risus congue iaculis. Nunc dictum urna imperdiet, rhoncus felis non, lacinia nisl. Vestibulum gravida risus et risus rutrum, et congue nunc pharetra.</p>
+    </div>
+  </div>
+</div>
+<div class="modal fade bio-modal modal7" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h2>Employee 7</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius efficitur. Proin tristique mauris nec nibh aliquam mollis. Morbi convallis fringilla nibh a viverra. Sed egestas mauris non libero tempus facilisis. Pellentesque bibendum sollicitudin finibus. Morbi augue ligula, convallis non dignissim in, fermentum nec massa. Phasellus mattis odio eget interdum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sed cursus enim, ut tempus augue. Curabitur a arcu nec neque venenatis sodales at at diam. Curabitur at ex vel risus congue iaculis. Nunc dictum urna imperdiet, rhoncus felis non, lacinia nisl. Vestibulum gravida risus et risus rutrum, et congue nunc pharetra.</p>
+    </div>
+  </div>
+</div>
+<div class="modal fade bio-modal modal8" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h2>Employee 8</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius efficitur. Proin tristique mauris nec nibh aliquam mollis. Morbi convallis fringilla nibh a viverra. Sed egestas mauris non libero tempus facilisis. Pellentesque bibendum sollicitudin finibus. Morbi augue ligula, convallis non dignissim in, fermentum nec massa. Phasellus mattis odio eget interdum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sed cursus enim, ut tempus augue. Curabitur a arcu nec neque venenatis sodales at at diam. Curabitur at ex vel risus congue iaculis. Nunc dictum urna imperdiet, rhoncus felis non, lacinia nisl. Vestibulum gravida risus et risus rutrum, et congue nunc pharetra.</p>
+    </div>
+  </div>
+</div>
+<div class="modal fade bio-modal modal9" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h2>Employee 9</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius efficitur. Proin tristique mauris nec nibh aliquam mollis. Morbi convallis fringilla nibh a viverra. Sed egestas mauris non libero tempus facilisis. Pellentesque bibendum sollicitudin finibus. Morbi augue ligula, convallis non dignissim in, fermentum nec massa. Phasellus mattis odio eget interdum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sed cursus enim, ut tempus augue. Curabitur a arcu nec neque venenatis sodales at at diam. Curabitur at ex vel risus congue iaculis. Nunc dictum urna imperdiet, rhoncus felis non, lacinia nisl. Vestibulum gravida risus et risus rutrum, et congue nunc pharetra.</p>
+    </div>
+  </div>
+</div>
+<div class="modal fade bio-modal modal10" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h2>Employee 10</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius efficitur. Proin tristique mauris nec nibh aliquam mollis. Morbi convallis fringilla nibh a viverra. Sed egestas mauris non libero tempus facilisis. Pellentesque bibendum sollicitudin finibus. Morbi augue ligula, convallis non dignissim in, fermentum nec massa. Phasellus mattis odio eget interdum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sed cursus enim, ut tempus augue. Curabitur a arcu nec neque venenatis sodales at at diam. Curabitur at ex vel risus congue iaculis. Nunc dictum urna imperdiet, rhoncus felis non, lacinia nisl. Vestibulum gravida risus et risus rutrum, et congue nunc pharetra.</p>
+    </div>
+  </div>
+</div>
+<div class="modal fade bio-modal modal11" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h2>Employee 11</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius efficitur. Proin tristique mauris nec nibh aliquam mollis. Morbi convallis fringilla nibh a viverra. Sed egestas mauris non libero tempus facilisis. Pellentesque bibendum sollicitudin finibus. Morbi augue ligula, convallis non dignissim in, fermentum nec massa. Phasellus mattis odio eget interdum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sed cursus enim, ut tempus augue. Curabitur a arcu nec neque venenatis sodales at at diam. Curabitur at ex vel risus congue iaculis. Nunc dictum urna imperdiet, rhoncus felis non, lacinia nisl. Vestibulum gravida risus et risus rutrum, et congue nunc pharetra.</p>
+    </div>
+  </div>
+</div>
+<div class="modal fade bio-modal modal12" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h2>Employee 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius efficitur. Proin tristique mauris nec nibh aliquam mollis. Morbi convallis fringilla nibh a viverra. Sed egestas mauris non libero tempus facilisis. Pellentesque bibendum sollicitudin finibus. Morbi augue ligula, convallis non dignissim in, fermentum nec massa. Phasellus mattis odio eget interdum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sed cursus enim, ut tempus augue. Curabitur a arcu nec neque venenatis sodales at at diam. Curabitur at ex vel risus congue iaculis. Nunc dictum urna imperdiet, rhoncus felis non, lacinia nisl. Vestibulum gravida risus et risus rutrum, et congue nunc pharetra.</p>
+    </div>
+  </div>
+</div>
+<div class="modal fade bio-modal modal13" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h2>Employee 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius efficitur. Proin tristique mauris nec nibh aliquam mollis. Morbi convallis fringilla nibh a viverra. Sed egestas mauris non libero tempus facilisis. Pellentesque bibendum sollicitudin finibus. Morbi augue ligula, convallis non dignissim in, fermentum nec massa. Phasellus mattis odio eget interdum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sed cursus enim, ut tempus augue. Curabitur a arcu nec neque venenatis sodales at at diam. Curabitur at ex vel risus congue iaculis. Nunc dictum urna imperdiet, rhoncus felis non, lacinia nisl. Vestibulum gravida risus et risus rutrum, et congue nunc pharetra.</p>
+    </div>
+  </div>
+</div>
+<div class="modal fade bio-modal modal14" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h2>Employee 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius efficitur. Proin tristique mauris nec nibh aliquam mollis. Morbi convallis fringilla nibh a viverra. Sed egestas mauris non libero tempus facilisis. Pellentesque bibendum sollicitudin finibus. Morbi augue ligula, convallis non dignissim in, fermentum nec massa. Phasellus mattis odio eget interdum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sed cursus enim, ut tempus augue. Curabitur a arcu nec neque venenatis sodales at at diam. Curabitur at ex vel risus congue iaculis. Nunc dictum urna imperdiet, rhoncus felis non, lacinia nisl. Vestibulum gravida risus et risus rutrum, et congue nunc pharetra.</p>
+    </div>
+  </div>
+</div>
+<div class="modal fade bio-modal modal15" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h2>Employee 15</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius efficitur. Proin tristique mauris nec nibh aliquam mollis. Morbi convallis fringilla nibh a viverra. Sed egestas mauris non libero tempus facilisis. Pellentesque bibendum sollicitudin finibus. Morbi augue ligula, convallis non dignissim in, fermentum nec massa. Phasellus mattis odio eget interdum venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi sed cursus enim, ut tempus augue. Curabitur a arcu nec neque venenatis sodales at at diam. Curabitur at ex vel risus congue iaculis. Nunc dictum urna imperdiet, rhoncus felis non, lacinia nisl. Vestibulum gravida risus et risus rutrum, et congue nunc pharetra.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
 </section>
 
 
@@ -371,6 +490,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/isotope.js"></script>
+
     <script src="js/bootstrap.min.js"></script>
     <script src="js/docs.min.js"></script>
     <script src="js/script.js"></script>
