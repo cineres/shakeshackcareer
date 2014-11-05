@@ -35,7 +35,7 @@
 .green-background {
   background-color: #60ae2b;
   width: 100%;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
 
 /* line 31, ../sass/style.scss */
@@ -188,34 +188,39 @@
   color: #60ae2b;
 }
 
-/* line 162, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
+.values {
+  padding-bottom: 70px;
+}
+
+/* line 165, ../sass/style.scss */
 #benefits {
   padding-top: 60px;
 }
-/* line 164, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 #benefits .fa {
   text-align: center;
   display: block;
 }
-/* line 168, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 #benefits h3 {
   text-align: center;
   color: #60ae2b;
 }
-/* line 172, ../sass/style.scss */
+/* line 175, ../sass/style.scss */
 #benefits p {
   text-align: center;
 }
-/* line 175, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 #benefits .row {
   padding-bottom: 40px;
 }
 
-/* line 183, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 .employee-bios {
   /* ---- button-group ---- */
 }
-/* line 184, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 .employee-bios .bio-item {
   position: relative;
   float: left;
@@ -226,12 +231,12 @@
   background: #888;
   color: #262524;
 }
-/* line 195, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 .employee-bios .bio-item > * {
   margin: 0;
   padding: 0;
 }
-/* line 200, ../sass/style.scss */
+/* line 203, ../sass/style.scss */
 .employee-bios .bio-item .name {
   position: absolute;
   left: 10px;
@@ -242,7 +247,7 @@
   font-weight: normal;
   color: white;
 }
-/* line 211, ../sass/style.scss */
+/* line 214, ../sass/style.scss */
 .employee-bios .bio-item .position {
   position: absolute;
   left: 10px;
@@ -250,14 +255,14 @@
   font-size: 14px;
   color: white;
 }
-/* line 219, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .employee-bios .bio-item .location {
   position: absolute;
   left: 10px;
   top: 125px;
   color: white;
 }
-/* line 226, ../sass/style.scss */
+/* line 229, ../sass/style.scss */
 .employee-bios .button {
   display: inline-block;
   padding: 0.5em 1.0em;
@@ -271,84 +276,84 @@
   text-shadow: 0 1px white;
   cursor: pointer;
 }
-/* line 240, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 .employee-bios .button:hover {
   background-color: #8CF;
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
   color: #222;
 }
-/* line 247, ../sass/style.scss */
+/* line 250, ../sass/style.scss */
 .employee-bios .button:active,
 .employee-bios .button.is-checked {
   background-color: #28F;
 }
-/* line 251, ../sass/style.scss */
+/* line 254, ../sass/style.scss */
 .employee-bios .button.is-checked {
   color: white;
   text-shadow: 0 -1px rgba(0, 0, 0, 0.8);
 }
-/* line 256, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
 .employee-bios .button:active {
   box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.8);
 }
-/* line 262, ../sass/style.scss */
+/* line 265, ../sass/style.scss */
 .employee-bios .button-group:after {
   content: '';
   display: block;
   clear: both;
 }
-/* line 268, ../sass/style.scss */
+/* line 271, ../sass/style.scss */
 .employee-bios .button-group .button {
   float: left;
   border-radius: 0;
   margin-left: 0;
   margin-right: 1px;
 }
-/* line 275, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 .employee-bios .button-group .button:first-child {
   border-radius: 0.5em 0 0 0.5em;
 }
-/* line 276, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 .employee-bios .button-group .button:last-child {
   border-radius: 0 0.5em 0.5em 0;
 }
-/* line 278, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 .employee-bios .button-group {
   margin-bottom: 20px;
 }
 
-/* line 286, ../sass/style.scss */
+/* line 289, ../sass/style.scss */
 .job-search .form-group {
   display: inline-block;
   width: 80%;
 }
-/* line 290, ../sass/style.scss */
+/* line 293, ../sass/style.scss */
 .job-search button {
   display: inline-block;
   width: 19%;
 }
 
-/* line 296, ../sass/style.scss */
+/* line 299, ../sass/style.scss */
 .search-categories select[multiple] {
   height: 200px;
 }
-/* line 298, ../sass/style.scss */
+/* line 301, ../sass/style.scss */
 .search-categories select[multiple] option {
   font-size: 22px;
 }
 
-/* line 304, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 .advanced-search a {
   padding-top: 20px;
 }
 
-/* line 310, ../sass/style.scss */
+/* line 313, ../sass/style.scss */
 #careers-frame iframe {
   width: 100%;
   height: 500px;
 }
 
-/* line 317, ../sass/style.scss */
+/* line 320, ../sass/style.scss */
 .isotope,
 .isotope .isotope-item {
   /* change duration value to whatever you like */
@@ -359,7 +364,7 @@
   transition-duration: 0.8s;
 }
 
-/* line 326, ../sass/style.scss */
+/* line 329, ../sass/style.scss */
 .isotope {
   -webkit-transition-property: height, width;
   -moz-transition-property: height, width;
@@ -368,7 +373,7 @@
   transition-property: height, width;
 }
 
-/* line 334, ../sass/style.scss */
+/* line 337, ../sass/style.scss */
 .isotope .isotope-item {
   -webkit-transition-property: -webkit-transform, opacity;
   -moz-transition-property: -moz-transform, opacity;
@@ -378,7 +383,7 @@
 }
 
 /**** disabling Isotope CSS3 transitions ****/
-/* line 346, ../sass/style.scss */
+/* line 349, ../sass/style.scss */
 .isotope.no-transition,
 .isotope.no-transition .isotope-item,
 .isotope .isotope-item.no-transition {
@@ -389,41 +394,46 @@
   transition-duration: 0s;
 }
 
-/* line 354, ../sass/style.scss */
+/* line 357, ../sass/style.scss */
 .modal-content {
   padding: 20px;
   background: url("../../img/bio-bg.png") no-repeat center;
   background-size: 900px 400px;
   color: #fff;
 }
-/* line 359, ../sass/style.scss */
+/* line 362, ../sass/style.scss */
 .modal-content p {
   width: 50%;
 }
 
-/* line 363, ../sass/style.scss */
+/* line 366, ../sass/style.scss */
 .modal-lg {
   border-radius: 0px;
 }
 
-/* line 367, ../sass/style.scss */
+/* line 370, ../sass/style.scss */
 .filters {
   text-align: center;
   padding-bottom: 20px;
 }
-/* line 370, ../sass/style.scss */
+/* line 373, ../sass/style.scss */
 .filters a {
   color: black;
   text-decoration: none;
   padding-left: 20px;
   padding-right: 20px;
 }
-/* line 376, ../sass/style.scss */
+/* line 379, ../sass/style.scss */
 .filters a:hover {
   color: #60ae2b;
 }
 
-/* line 381, ../sass/style.scss */
+/* line 385, ../sass/style.scss */
+.secondary-menu ul {
+  margin-bottom: 0px;
+}
+
+/* line 390, ../sass/style.scss */
 section {
   padding-bottom: 100px;
 }
