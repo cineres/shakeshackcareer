@@ -14,15 +14,19 @@ $green: #60ae2b;
 	color: white;
 	text-align: center;
 	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .call-to-action-full{
 	background-color: lightgrey;
-	width: 100%;
+	max-width: 1200px;
 	position: relative;
 	top: 0px;
 	padding: 20px;
 	color: white;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	a{
 		color: white;
 	}
@@ -41,7 +45,7 @@ $green: #60ae2b;
 	padding: 0px;
 	margin: 0px;
 	img{
-		max-width: 100%;
+		max-width: 1200px;
 		vertical-align: bottom;
 	}
 }
@@ -92,7 +96,7 @@ $green: #60ae2b;
 		vertical-align: bottom;	
 		background: grey no-repeat center;
 		height: 414px;
-		width: 1000px;
+		width: 1200px;
 		margin-left: auto;
 		margin-right: auto;
 	}
