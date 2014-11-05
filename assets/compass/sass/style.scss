@@ -12,18 +12,21 @@ $green: #60ae2b;
 }
 .call-to-action-full{
 	background-color: lightgrey;
-	height: 100px;
 	width: 100%;
 	position: relative;
 	top: 0px;
 	padding: 20px;
 	color: white;
 	text-align: center;
-	margin-bottom: 20px;
 	a{
 		color: white;
 	}
 	h2{margin-bottom: 0px; margin-top: 5px;}
+}
+.green-background{
+	background-color: $green;
+	width: 100%;
+	margin-bottom: 40px;
 }
 .banner-image{
 	width: 100%;
@@ -151,8 +154,8 @@ $green: #60ae2b;
 
 .value{
 	padding-bottom: 30px;
-	p{
-		padding-top: 20px;
+	.fa{
+		color: $green;
 	}
 }
 
@@ -277,10 +280,6 @@ $green: #60ae2b;
 }
 
 }
-
-
-
-
 
 
 .job-search{
