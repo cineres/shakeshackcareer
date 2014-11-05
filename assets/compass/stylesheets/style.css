@@ -380,6 +380,23 @@
 }
 
 /* line 353, ../sass/style.scss */
+.filters {
+  text-align: center;
+  padding-bottom: 20px;
+}
+/* line 356, ../sass/style.scss */
+.filters a {
+  color: black;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 362, ../sass/style.scss */
+.filters a:hover {
+  color: #60ae2b;
+}
+
+/* line 367, ../sass/style.scss */
 section {
   padding-bottom: 100px;
 }

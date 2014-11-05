@@ -27,11 +27,7 @@ $(window).load(function(){
         }
     });
  
-    $('#filters .button').click(function(){
-        var $buttonGroup = $('.button-group');
-        $buttonGroup.find('.is-checked').removeClass('is-checked');
-        $(this).addClass('is-checked');
- 
+    $('.filters a').click(function(){
         var selector = $(this).attr('data-filter');
         $container.isotope({
             filter: selector,
