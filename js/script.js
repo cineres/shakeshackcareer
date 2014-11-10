@@ -20,6 +20,7 @@ $(window).load(function(){
     var $container = $('.employees');
     $container.isotope({
         filter: '*',
+        itemSelector: '.bio-item',
         animationOptions: {
             duration: 750,
             easing: 'linear',
