@@ -400,3 +400,14 @@ $green: #60ae2b;
 section{
 	padding-bottom: 100px;
 }
+
+.image-caro{
+        background-color: $green;
+    .picture-item{
+        display: inline-block !important;
+        background: grey 200px 200px;
+        height: 125px;
+        width: 233px;
+        color: white;
+    }
+}
