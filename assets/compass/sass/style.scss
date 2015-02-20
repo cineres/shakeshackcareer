@@ -201,7 +201,7 @@ $green: #60ae2b;
   height: 225px;
   margin: 5px;
   padding: 10px;
-  background: #888;
+  background: url('http://placehold.it/150x140&text=Image') no-repeat;
   color: #262524;
 }
 
@@ -213,27 +213,24 @@ $green: #60ae2b;
 .bio-item .name {
   position: absolute;
   left: 10px;
-  top: 90px;
+  top: 145px;
   text-transform: none;
   letter-spacing: 0;
   font-size: 18px;
   font-weight: normal;
-  color: white;
 }
 
 .bio-item .position {
   position: absolute;
   left: 10px;
-  top: 110px;
+  top: 165px;
   font-size: 14px;
-  color: white;
 }
 
 .bio-item .location {
   position: absolute;
   left: 10px;
-  top: 125px;
-  color: white;
+  top: 180px;
 }
 
 .button {
